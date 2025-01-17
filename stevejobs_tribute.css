@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px
+}
+
+
+img {
+  justify-content: center;
+  display: block;
+  max-width: 100%;
+  margin: auto
+}
+
+ul > li {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
+h2 {
+  text-align: center;
+  padding-top: 50px
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.img-cap {
+  text-align: center
+}
+
+a {
+  color: white;
+}
+h3 {
+  text-align: center;
+}
