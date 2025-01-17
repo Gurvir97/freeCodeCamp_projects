@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="survey_form.css"></
+  link>
+</head>
+  <body>
+      <form id="survey-form">
+  <h1 id="title">Short Survey Form from freeCodeCamp</h1>
+  <p id="description">We would love to hear from you!</p>
+
+<!-- First section of inputs-->
+    <fieldset class="fieldset-one">
+      <label id="name-label" for="name" class="one-label" >Name</label>
+      <input id="name" class="one" type="text" placeholder="Example: Steve Jobs " required />
+      <label id="email-label" for="email" class="one-label" >Email</label>
+      <input id="email" class="one" type="email" placeholder="Example@domain.com" required />
+      <label id="number-label" for="number" class="one-label" >Number</label>
+      <input id="number" class="one" type="number" placeholder="15" max="120" min="13" />
+    </fieldset>
+
+
+<!--section two-->
+
+<fieldset> 
+  <legend class="leg-one">How Likely are you to recommend freeCodeCamp?</legend>
+  <label class="select-label"></label>
+  <select id="dropdown">
+    <option value="">Select one</option>
+    <option value="1">Very Likely</option>
+    <option value="2">Likely</option>
+    <option value="3">Unlikely</option>
+    <option value="4">Very Unlikely</option>
+  </select>
+  </fieldset>
+
+<!-- fieldset 3 -->
+
+<fieldset>
+  <legend>Are you male or female?</legend>
+  <label class="label-three"><input name="gender" value="1" class="three" type="radio" />Male</label>
+  <label class="label-three"><input name="gender" value="2" class="three" type="radio" />Female</label>
+  <label class="label-three"><input name="gender" value="3" class="three" type="radio" />Prefer not to say</label>
+  
+</fieldset>
+
+
+<fieldset><legend>What are your desired outcomes?</legend>
+  <label class="label-four"><input type="checkbox" value="1" />Developing Skills</label>
+  <label class="label-four"><input type="checkbox" value="2" />Meeting Job Qualifications opportunities</label>
+  <label class="label-four"><input type="checkbox" value="3" />Further Education</label>
+  <label class="label-four"><input type="checkbox" value="4" />Completing a project</label>
+
+
+  </fieldset>
+  <fieldset><legend>Opinions or additional comments (Optional)</legend>
+    <textarea  placeholder="Comments here" rows="5" cols="60">
+      </textarea>
+    </fieldset>
+
+<button id="submit">Submit</button>
+
+
+ 
+    </form>
+  </body>
+</html>
